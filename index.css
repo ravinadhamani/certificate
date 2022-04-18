@@ -1,0 +1,182 @@
+body {
+    overflow: hidden; /* Hide scrollbars */
+  }
+
+#header{
+    background-color: #000;
+}
+
+/* Style the navigation bar */
+.navbar {
+    width: 90%;
+   
+    background-color: #555;
+    overflow: hidden;
+    position: relative;
+    left:120px;
+    bottom: 90px;
+  }
+  
+  /* Navbar links */
+  .navbar a {
+    float: left;
+    text-align: center;
+    padding: 25px;
+    color: rgb(227, 235, 116);
+    text-decoration: none;
+    font-size: 25px;
+    
+
+  }
+  
+  /* Navbar links on mouse-over */
+  .navbar a:hover {
+    background-color: #000;
+  }
+  
+  /* Current/active navbar link */
+  .active {
+    background-color: #89aa04;
+  }
+  
+  /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+    }
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+  .button1 {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    
+    cursor: pointer;
+  }
+  
+  .button2 {background-color: #4CAF50;}
+  
+  /* Style the search field */
+  form.example input[type=text] {
+    padding: 24px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: right;
+    width: 35%;
+    
+    background: #f1f1f1;
+    position: relative;
+    bottom: 10px;
+    
+  }
+  .button3 {background-color: #008CBA;}
+  
+  
+  /* Style the submit button */
+  form.example button {
+    float: right;
+    width: 10%;
+    padding: 24px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+    position: relative;
+    left: 450px;
+    position: relative;
+    bottom: 10px;
+    
+  }
+  
+  form.example button:hover {
+    background: #0b7dda;
+  }
+  
+  /* Clear floats */
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  #homepage{
+      position: relative;
+      left:50px;
+      bottom: 10px;
+  }
+
+  .card{
+    box-shadow: 1px 3px 4px #433d3d;
+    height: 300px;
+    width: 25%;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    padding: 0;
+  }
+
+  #main-card{
+      display: flex;
+      
+  }
+
+   
+
+.mi-image{
+    height: 300px;
+    width: 320px;
+  }
+#csk-image{
+    height: 300px;
+    width: 320px;
+}
+
+#dc-image{
+    height: 300px;
+    width: 320px;
+}
+
+#kings-image{
+    height: 300px;
+    width: 320px;
+}
+
+#kkr-image{
+    height: 300px;
+    width: 320px;
+}
+
+#lucknow-image{
+    height: 300px;
+    width: 320px;
+}
+
+#rcb-image{
+    height: 300px;
+    width: 320px;
+}
+
+#rr-image{
+    height: 300px;
+    width: 320px;
+}
+
+#ahmedabad-image{
+    height: 300px;
+    width: 350px;
+}
+
+#sunrisers-image{
+    height: 300px;
+    width: 350px;
+}
+
